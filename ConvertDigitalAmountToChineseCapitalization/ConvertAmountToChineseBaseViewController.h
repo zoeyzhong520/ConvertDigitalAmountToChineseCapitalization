@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ConvertAmountToChineseBaseViewController.h
 //  ConvertDigitalAmountToChineseCapitalization
 //
 //  Created by joe on 2018/5/11.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ConvertAmountToChineseBaseViewController.h"
 
-@interface ViewController : ConvertAmountToChineseBaseViewController
-
+@interface ConvertAmountToChineseBaseViewController : UIViewController
 
 @end
-

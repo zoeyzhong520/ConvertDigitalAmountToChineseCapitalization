@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self setPage];
 }
 
 
@@ -25,5 +25,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)setPage {
+    
+    self.title = @"首页";
+}
 
 @end

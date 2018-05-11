@@ -1,0 +1,15 @@
+//
+//  ConvertDigitalAmountToChineseCapitalization.pch
+//  ConvertDigitalAmountToChineseCapitalization
+//
+//  Created by joe on 2018/5/11.
+//  Copyright © 2018年 智富金融. All rights reserved.
+//
+
+#ifndef ConvertDigitalAmountToChineseCapitalization_pch
+#define ConvertDigitalAmountToChineseCapitalization_pch
+
+#define RGBA(r, g, b, a) [UIColor colorWithRed:r / 255.0 green:g / 255.0 blue:b / 255.0 alpha:a]
+#define RGB(r, g, b) RGBA(r, g, b, 1.0)
+
+#endif /* ConvertDigitalAmountToChineseCapitalization_pch */
