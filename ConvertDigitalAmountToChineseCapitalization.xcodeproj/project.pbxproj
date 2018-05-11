@@ -16,7 +16,6 @@
 		D8DD7E8F20A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD7E8E20A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationTests.m */; };
 		D8DD7E9A20A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD7E9920A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationUITests.m */; };
 		D8DD7EA920A54156004B4155 /* ConvertAmountToChineseBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD7EA820A54156004B4155 /* ConvertAmountToChineseBaseViewController.m */; };
-		D8DD7EAD20A54262004B4155 /* UIColor+UIColor_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD7EAC20A54262004B4155 /* UIColor+UIColor_Category.m */; };
 		D8DD7EB020A54277004B4155 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD7EAF20A54277004B4155 /* UIColor+Category.m */; };
 /* End PBXBuildFile section */
 
@@ -56,8 +55,6 @@
 		D8DD7E9B20A54072004B4155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8DD7EA720A54156004B4155 /* ConvertAmountToChineseBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConvertAmountToChineseBaseViewController.h; sourceTree = "<group>"; };
 		D8DD7EA820A54156004B4155 /* ConvertAmountToChineseBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConvertAmountToChineseBaseViewController.m; sourceTree = "<group>"; };
-		D8DD7EAB20A54262004B4155 /* UIColor+UIColor_Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+UIColor_Category.h"; sourceTree = "<group>"; };
-		D8DD7EAC20A54262004B4155 /* UIColor+UIColor_Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UIColor_Category.m"; sourceTree = "<group>"; };
 		D8DD7EAE20A54277004B4155 /* UIColor+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
 		D8DD7EAF20A54277004B4155 /* UIColor+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
 		D8DD7EB220A542E7004B4155 /* ConvertDigitalAmountToChineseCapitalization.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConvertDigitalAmountToChineseCapitalization.pch; sourceTree = "<group>"; };
@@ -149,8 +146,6 @@
 		D8DD7EAA20A5424B004B4155 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				D8DD7EAB20A54262004B4155 /* UIColor+UIColor_Category.h */,
-				D8DD7EAC20A54262004B4155 /* UIColor+UIColor_Category.m */,
 				D8DD7EAE20A54277004B4155 /* UIColor+Category.h */,
 				D8DD7EAF20A54277004B4155 /* UIColor+Category.m */,
 			);
@@ -300,7 +295,6 @@
 			files = (
 				D8DD7E7A20A54072004B4155 /* ViewController.m in Sources */,
 				D8DD7E8520A54072004B4155 /* main.m in Sources */,
-				D8DD7EAD20A54262004B4155 /* UIColor+UIColor_Category.m in Sources */,
 				D8DD7EA920A54156004B4155 /* ConvertAmountToChineseBaseViewController.m in Sources */,
 				D8DD7E7720A54072004B4155 /* AppDelegate.m in Sources */,
 				D8DD7EB020A54277004B4155 /* UIColor+Category.m in Sources */,
