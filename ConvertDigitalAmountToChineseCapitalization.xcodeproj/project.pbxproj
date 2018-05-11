@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8DD7E7720A54072004B4155 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD7E7620A54072004B4155 /* AppDelegate.m */; };
+		D8DD7E7A20A54072004B4155 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD7E7920A54072004B4155 /* ViewController.m */; };
+		D8DD7E7D20A54072004B4155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8DD7E7B20A54072004B4155 /* Main.storyboard */; };
+		D8DD7E7F20A54072004B4155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DD7E7E20A54072004B4155 /* Assets.xcassets */; };
+		D8DD7E8220A54072004B4155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8DD7E8020A54072004B4155 /* LaunchScreen.storyboard */; };
+		D8DD7E8520A54072004B4155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD7E8420A54072004B4155 /* main.m */; };
+		D8DD7E8F20A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD7E8E20A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationTests.m */; };
+		D8DD7E9A20A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DD7E9920A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8DD7E8B20A54072004B4155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8DD7E6A20A54072004B4155 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8DD7E7120A54072004B4155;
+			remoteInfo = ConvertDigitalAmountToChineseCapitalization;
+		};
+		D8DD7E9620A54072004B4155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8DD7E6A20A54072004B4155 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8DD7E7120A54072004B4155;
+			remoteInfo = ConvertDigitalAmountToChineseCapitalization;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8DD7E7220A54072004B4155 /* ConvertDigitalAmountToChineseCapitalization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConvertDigitalAmountToChineseCapitalization.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8DD7E7520A54072004B4155 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8DD7E7620A54072004B4155 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8DD7E7820A54072004B4155 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8DD7E7920A54072004B4155 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8DD7E7C20A54072004B4155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8DD7E7E20A54072004B4155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8DD7E8120A54072004B4155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8DD7E8320A54072004B4155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8DD7E8420A54072004B4155 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8DD7E8A20A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvertDigitalAmountToChineseCapitalizationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8DD7E8E20A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConvertDigitalAmountToChineseCapitalizationTests.m; sourceTree = "<group>"; };
+		D8DD7E9020A54072004B4155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8DD7E9520A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvertDigitalAmountToChineseCapitalizationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8DD7E9920A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConvertDigitalAmountToChineseCapitalizationUITests.m; sourceTree = "<group>"; };
+		D8DD7E9B20A54072004B4155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8DD7E6F20A54072004B4155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DD7E8720A54072004B4155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DD7E9220A54072004B4155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8DD7E6920A54072004B4155 = {
+			isa = PBXGroup;
+			children = (
+				D8DD7E7420A54072004B4155 /* ConvertDigitalAmountToChineseCapitalization */,
+				D8DD7E8D20A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationTests */,
+				D8DD7E9820A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationUITests */,
+				D8DD7E7320A54072004B4155 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8DD7E7320A54072004B4155 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8DD7E7220A54072004B4155 /* ConvertDigitalAmountToChineseCapitalization.app */,
+				D8DD7E8A20A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationTests.xctest */,
+				D8DD7E9520A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8DD7E7420A54072004B4155 /* ConvertDigitalAmountToChineseCapitalization */ = {
+			isa = PBXGroup;
+			children = (
+				D8DD7E7520A54072004B4155 /* AppDelegate.h */,
+				D8DD7E7620A54072004B4155 /* AppDelegate.m */,
+				D8DD7E7820A54072004B4155 /* ViewController.h */,
+				D8DD7E7920A54072004B4155 /* ViewController.m */,
+				D8DD7E7B20A54072004B4155 /* Main.storyboard */,
+				D8DD7E7E20A54072004B4155 /* Assets.xcassets */,
+				D8DD7E8020A54072004B4155 /* LaunchScreen.storyboard */,
+				D8DD7E8320A54072004B4155 /* Info.plist */,
+				D8DD7E8420A54072004B4155 /* main.m */,
+			);
+			path = ConvertDigitalAmountToChineseCapitalization;
+			sourceTree = "<group>";
+		};
+		D8DD7E8D20A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8DD7E8E20A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationTests.m */,
+				D8DD7E9020A54072004B4155 /* Info.plist */,
+			);
+			path = ConvertDigitalAmountToChineseCapitalizationTests;
+			sourceTree = "<group>";
+		};
+		D8DD7E9820A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8DD7E9920A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationUITests.m */,
+				D8DD7E9B20A54072004B4155 /* Info.plist */,
+			);
+			path = ConvertDigitalAmountToChineseCapitalizationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8DD7E7120A54072004B4155 /* ConvertDigitalAmountToChineseCapitalization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8DD7E9E20A54072004B4155 /* Build configuration list for PBXNativeTarget "ConvertDigitalAmountToChineseCapitalization" */;
+			buildPhases = (
+				D8DD7E6E20A54072004B4155 /* Sources */,
+				D8DD7E6F20A54072004B4155 /* Frameworks */,
+				D8DD7E7020A54072004B4155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConvertDigitalAmountToChineseCapitalization;
+			productName = ConvertDigitalAmountToChineseCapitalization;
+			productReference = D8DD7E7220A54072004B4155 /* ConvertDigitalAmountToChineseCapitalization.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8DD7E8920A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8DD7EA120A54072004B4155 /* Build configuration list for PBXNativeTarget "ConvertDigitalAmountToChineseCapitalizationTests" */;
+			buildPhases = (
+				D8DD7E8620A54072004B4155 /* Sources */,
+				D8DD7E8720A54072004B4155 /* Frameworks */,
+				D8DD7E8820A54072004B4155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8DD7E8C20A54072004B4155 /* PBXTargetDependency */,
+			);
+			name = ConvertDigitalAmountToChineseCapitalizationTests;
+			productName = ConvertDigitalAmountToChineseCapitalizationTests;
+			productReference = D8DD7E8A20A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8DD7E9420A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8DD7EA420A54072004B4155 /* Build configuration list for PBXNativeTarget "ConvertDigitalAmountToChineseCapitalizationUITests" */;
+			buildPhases = (
+				D8DD7E9120A54072004B4155 /* Sources */,
+				D8DD7E9220A54072004B4155 /* Frameworks */,
+				D8DD7E9320A54072004B4155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8DD7E9720A54072004B4155 /* PBXTargetDependency */,
+			);
+			name = ConvertDigitalAmountToChineseCapitalizationUITests;
+			productName = ConvertDigitalAmountToChineseCapitalizationUITests;
+			productReference = D8DD7E9520A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8DD7E6A20A54072004B4155 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "智富金融";
+				TargetAttributes = {
+					D8DD7E7120A54072004B4155 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D8DD7E8920A54072004B4155 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8DD7E7120A54072004B4155;
+					};
+					D8DD7E9420A54072004B4155 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8DD7E7120A54072004B4155;
+					};
+				};
+			};
+			buildConfigurationList = D8DD7E6D20A54072004B4155 /* Build configuration list for PBXProject "ConvertDigitalAmountToChineseCapitalization" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8DD7E6920A54072004B4155;
+			productRefGroup = D8DD7E7320A54072004B4155 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8DD7E7120A54072004B4155 /* ConvertDigitalAmountToChineseCapitalization */,
+				D8DD7E8920A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationTests */,
+				D8DD7E9420A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8DD7E7020A54072004B4155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DD7E8220A54072004B4155 /* LaunchScreen.storyboard in Resources */,
+				D8DD7E7F20A54072004B4155 /* Assets.xcassets in Resources */,
+				D8DD7E7D20A54072004B4155 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DD7E8820A54072004B4155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DD7E9320A54072004B4155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8DD7E6E20A54072004B4155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DD7E7A20A54072004B4155 /* ViewController.m in Sources */,
+				D8DD7E8520A54072004B4155 /* main.m in Sources */,
+				D8DD7E7720A54072004B4155 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DD7E8620A54072004B4155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DD7E8F20A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8DD7E9120A54072004B4155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DD7E9A20A54072004B4155 /* ConvertDigitalAmountToChineseCapitalizationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8DD7E8C20A54072004B4155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8DD7E7120A54072004B4155 /* ConvertDigitalAmountToChineseCapitalization */;
+			targetProxy = D8DD7E8B20A54072004B4155 /* PBXContainerItemProxy */;
+		};
+		D8DD7E9720A54072004B4155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8DD7E7120A54072004B4155 /* ConvertDigitalAmountToChineseCapitalization */;
+			targetProxy = D8DD7E9620A54072004B4155 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8DD7E7B20A54072004B4155 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8DD7E7C20A54072004B4155 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8DD7E8020A54072004B4155 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8DD7E8120A54072004B4155 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8DD7E9C20A54072004B4155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8DD7E9D20A54072004B4155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8DD7E9F20A54072004B4155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KMK843WA4;
+				INFOPLIST_FILE = ConvertDigitalAmountToChineseCapitalization/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhifu.zhifu360.ConvertDigitalAmountToChineseCapitalization;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8DD7EA020A54072004B4155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KMK843WA4;
+				INFOPLIST_FILE = ConvertDigitalAmountToChineseCapitalization/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhifu.zhifu360.ConvertDigitalAmountToChineseCapitalization;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8DD7EA220A54072004B4155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KMK843WA4;
+				INFOPLIST_FILE = ConvertDigitalAmountToChineseCapitalizationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhifu.zhifu360.ConvertDigitalAmountToChineseCapitalizationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConvertDigitalAmountToChineseCapitalization.app/ConvertDigitalAmountToChineseCapitalization";
+			};
+			name = Debug;
+		};
+		D8DD7EA320A54072004B4155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KMK843WA4;
+				INFOPLIST_FILE = ConvertDigitalAmountToChineseCapitalizationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhifu.zhifu360.ConvertDigitalAmountToChineseCapitalizationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConvertDigitalAmountToChineseCapitalization.app/ConvertDigitalAmountToChineseCapitalization";
+			};
+			name = Release;
+		};
+		D8DD7EA520A54072004B4155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KMK843WA4;
+				INFOPLIST_FILE = ConvertDigitalAmountToChineseCapitalizationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhifu.zhifu360.ConvertDigitalAmountToChineseCapitalizationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConvertDigitalAmountToChineseCapitalization;
+			};
+			name = Debug;
+		};
+		D8DD7EA620A54072004B4155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KMK843WA4;
+				INFOPLIST_FILE = ConvertDigitalAmountToChineseCapitalizationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhifu.zhifu360.ConvertDigitalAmountToChineseCapitalizationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConvertDigitalAmountToChineseCapitalization;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8DD7E6D20A54072004B4155 /* Build configuration list for PBXProject "ConvertDigitalAmountToChineseCapitalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DD7E9C20A54072004B4155 /* Debug */,
+				D8DD7E9D20A54072004B4155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8DD7E9E20A54072004B4155 /* Build configuration list for PBXNativeTarget "ConvertDigitalAmountToChineseCapitalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DD7E9F20A54072004B4155 /* Debug */,
+				D8DD7EA020A54072004B4155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8DD7EA120A54072004B4155 /* Build configuration list for PBXNativeTarget "ConvertDigitalAmountToChineseCapitalizationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DD7EA220A54072004B4155 /* Debug */,
+				D8DD7EA320A54072004B4155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8DD7EA420A54072004B4155 /* Build configuration list for PBXNativeTarget "ConvertDigitalAmountToChineseCapitalizationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DD7EA520A54072004B4155 /* Debug */,
+				D8DD7EA620A54072004B4155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8DD7E6A20A54072004B4155 /* Project object */;
+}
